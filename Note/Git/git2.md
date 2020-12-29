@@ -2,27 +2,50 @@
 
 当前位置：[前端学习笔记](../index.md) / [Git 学习笔记](./index.md) / [2 - Git 相关概念](./git2.md)
 
-git 是 xxxxx
+git 是 **一个分布式版本控制系统（Distributed Version Control System，简称 DVCS）**
 
 ## 版本控制
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,xxxxxxxxxxxxxx
+版本控制是一种记录一个或若干文件内容变化，以便将来查阅特定版本修订情况的系统。
 
-## 分布式
+## 版本控制系统的种类
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxx,xxxxxxxxxxx.xxxxxxxxxxxxxxxx.
+###本地版本控制系统
+通过复制整个项目目录的方式来保存不同的版本
+
+###集中化的版本控制系统
+集中化的版本控制系统有一个单一的集中管理的服务器，保存所有文件的修订版本，而协同工作的人们都通过客户端连到这台服务器，取出最新的文件或者提交更新。
+
+###分布式版本控制系统
+在分布式版本控制系统中，客户端并不只提取最新版本的文件快照，而是把代码仓库完整地镜像下来，包括完整的历史记录。
 
 ## 仓库 Repository
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+分为本地仓库和远程仓库，储存数据的地方
 
-## Commit
+## 跟踪 track
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+* **未跟踪**：文件的改动不受到Git的版本控制
 
-## xxxx
+* **已跟踪**：即被纳入版本控制的文件；只有已跟踪的文件，才会有git的其他状态。
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+初次克隆某个仓库时，工作目录中所有文件都是已跟踪且未修改的状态。
+
+## 暂存 stage
+
+如果文件已修改并放入暂存区，就属于**已暂存**状态
+
+## 提交 commit
+
+如果 Git 目录中保存着特定版本的文件，就属于**已提交**状态
+
+## 推送 push
+
+向远程仓库提供信息
+
+## 拉取 pull
+
+从远程仓库获取数据
 
 ---
 上一篇：[1 - Git 简介](./git1.md)
