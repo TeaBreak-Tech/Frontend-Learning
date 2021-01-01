@@ -1,6 +1,6 @@
 # 前端学习笔记
 
-（更新于：2020.12.24，作者：DYL, ZYX, SJQ, FKQ）
+（更新于：2021.1.1，作者：DYL, ZYX, SJQ, FKQ）
 
 > 相关链接：
 >
@@ -12,9 +12,12 @@
 
 ## 简介：
 
-这篇笔记包括 XXX，xxx，xxx，xxx 几部分内容，旨在 xxxx。
+这篇笔记包括 Git的使用，javascript，React框架，CSS 几部分内容，旨在最后完成阶段项目。
 
 
 ## 内容索引（目录）
 
-1. [Git学习笔记](./Git/git1.md)
+1. [Git学习笔记](./Git/index.md)
+2. [JavaScript Notes](./JavaScript/index.md)
+3. [React框架](./React/index.md)
+4. [CSS Notes](./CSS/index.md)
