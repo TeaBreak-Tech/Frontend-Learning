@@ -268,7 +268,7 @@ reg_time: registration time
 {
     "year":2021,
     "month":2,
-    "week_of_month":1,
+    "day_of_month":1,
     "events":[
         {
             "event_id":27,
