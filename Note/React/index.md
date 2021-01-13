@@ -4,6 +4,10 @@
 >> JSX每一个组件都有一个 render 方法，这个方法产生一个”ViewModel(视图模型)” 
 >> 在返回HTML到组件之前，可以将这个模型(ViewModel)的信息放入视图中，意味着你的HTML会根据这个模型动态改变(i.e. a dynamic array)。
 
+## Function Component (函数组件)
+> 该函数是一个有效的 React 组件，因为它接收唯一带有数据的 “props”（代表属性）对象与并返回一个 React 元素。这类组件被称为“函数组件”，因为它本质上就是 JavaScript 函数。
+
+
 ## State (状态）
 1. 每一个组件都有其自己的"状态"。当要使用状态时，首先需要定义初始状态，然后才可以使用 this.setState 来更新状态。
 2. 当使用 this.setState 来更新状态时，组件都会再一次调用 render 函数，拿新的值去替换或者改变之前渲染的值。
