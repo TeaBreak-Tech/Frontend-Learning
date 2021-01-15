@@ -1,23 +1,46 @@
 # CSS笔记索引
 ## 背景
-1. background-color：定义了元素的背景颜色.
-2. background-image：描述了元素的背景图像
-3. background-repeat：背景图像与文本在同一位置（no-repeat)
-4. background-attachment: 背景图像是否固定或者随着页面的其余部分滚动。
-5. background-position: 设置背景图像的起始位置。
 
-## Text(文本）
-1. color
-2. text-align: 设置文本的水平对齐方式
-3. text-decoration: 设置或删除文本的装饰
-4. text-transform: 指定在一个文本中的大写和小写字母
-5. text-indent: 用来指定文本的第一行的缩进 (...px)
+|属性  					|	描述									|
+------------------------|----------------------------------------
+|background 			| 简写属性，作用是将背景属性设置在一个声明中。	|
+|background-attachment  |  背景图像是否固定或者随着页面的其余部分滚动	|
+|background-color  		|  设置元素的背景颜色。					|
+|background-image  		|  把图像设置为背景。						|
+|background-position  	|  设置背景图像的起始位置。					|
+|background-repeat  	|  设置背景图像是否及如何重复。				|
+
+## 文本
+|属性			|描述				|
+--------		|------
+|color			|设置文本颜色			|
+|direction		|设置文本方向。		|
+|line-height	|设置行高。			|
+|letter-spacing	|	设置字符间距。	|
+|text-align		|对齐元素中的文本。	|
+|text-decoration|	向文本添加修饰。	|
+|text-indent	|缩进元素中文本的首行。|
+|text-shadow	|设置文本阴影			|
+|text-transform	|控制元素中的字母 		|
+|unicode-bidi	|设置文本方向。		|	
+|white-space	|设置元素中空白的处理方式。|
+|word-spacing	|设置字符间距。|	
+
 
 ## Fonts(字体）
 1. font-style：指定斜体文字的字体样式属性
 2. font-size：设置文本的大小(...px)
 3. font-weight: 指定字体的粗细
 ...
+### white-space
+
+|值		  |空白符	| 换行符	|自动换行|
+|---------|---------|-------|-------|
+|pre-line |合并  	|	保留	|	允许	|
+|normal	  |合并  	|	忽略	|	允许	|
+|nowrap	  |合并		|   忽略	|不允许	|
+|pre	  |保留  	|	保留	|不允许	|
+|pre-wrap |保留		|   保留	|允许	|
 
 ## Table(表格）
 1. border: 指定CSS表格边框
